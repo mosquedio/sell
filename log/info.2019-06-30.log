@@ -1,0 +1,7 @@
+Starting LoggerTest on PC-201906252105 with PID 12480 (started by Administrator in E:\Projects\sell)
+No active profile set, falling back to default profiles: default
+Initializing ExecutorService 'applicationTaskExecutor'
+Started LoggerTest in 2.123 seconds (JVM running for 2.91)
+info...
+name:imooc,psd:123123
+Shutting down ExecutorService 'applicationTaskExecutor'

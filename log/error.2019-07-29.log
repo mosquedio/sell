@@ -1,0 +1,68 @@
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'wxMpConfigStorage', defined in class path resource [com/imooc/config/WechatOpenConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/imooc/config/WechatMpConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Configuration property name 'projectUrl' is not valid:
+
+    Invalid characters: 'U'
+    Bean: projectUrlConfig
+    Reason: Canonical names should be kebab-case ('-' separated), lowercase alpha-numeric characters and must start with a letter
+
+Action:
+
+Modify 'projectUrl' so that it conforms to the canonical names requirements.
+
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Configuration property name 'projectUrl' is not valid:
+
+    Invalid characters: 'U'
+    Bean: projectUrlConfig
+    Reason: Canonical names should be kebab-case ('-' separated), lowercase alpha-numeric characters and must start with a letter
+
+Action:
+
+Modify 'projectUrl' so that it conforms to the canonical names requirements.
+
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Configuration property name 'projectUrl' is not valid:
+
+    Invalid characters: 'U'
+    Bean: projectUrlConfig
+    Reason: Canonical names should be kebab-case ('-' separated), lowercase alpha-numeric characters and must start with a letter
+
+Action:
+
+Modify 'projectUrl' so that it conforms to the canonical names requirements.
+

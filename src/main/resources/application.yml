@@ -1,0 +1,45 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+  jpa:
+    show-sql: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
+#  jackson:
+#    default-property-inclusion: non_null
+server:
+  servlet:
+    context-path: /sell
+  port: 80
+
+
+wechat:
+  mpAppId: wxd1e6d05cee488bf5
+  mpAppSecret: 974c07b3e723fee03155f1e94061c101
+  openAppId: 123
+  openAppSecret: 456
+  mchId: 123
+  mchKey: 123
+  keyPath: D://a.txt
+  notifyUrl: http://turing.natapp1.cc/sell/pay/notify
+  templateId:
+    orderStatus: lCiv80BktNQAgdVAZ3Ft-TcxZKLiuJJ1EhI8theJ5-Q
+
+project-url:
+  wechatMpAuthorize: http://turing.natapp1.cc
+  wechatOpenAuthorize: http://turing.natapp1.cc
+  sell: http://127.0.0.1
+
+
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+##  path: E:\Projects\sell\log
+#  file: E:\Projects\sell\log\sell.log
+#  level:
+#    com.imooc.LoggerTest: debug
